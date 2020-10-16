@@ -43,6 +43,8 @@ Uzgodnij z Wieśkiem i GH szczegóły jak to ma byc oprogramowane.
 
 15. Aktualizacja nowej bazy testowej u klienta oraz testy nowej formatki. 
 
+16. Potwierdzona rozdzielczośc 1366*768
+
 -----------------------------------------------------------------------------------------------------
 UWAGA:
 Aktualna wersja formatki znajduje się na wymianie:
