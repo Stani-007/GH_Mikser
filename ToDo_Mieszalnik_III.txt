@@ -1,0 +1,52 @@
+-----------------------------------------------------------------------------------------------------
+					Mieszalnik III
+-----------------------------------------------------------------------------------------------------
+Aktualne uzgodnienia po spotkaniu z Wieśkiem.
+- dodanie na widoku Miksera zamiast Aktualny cykl -> Pozostało cykli ???
+Do rozpatrzenia przez GH (w tej chwili jest wyswietlany aktualny cykl)
+- Pominąć wybór uruchomienia z listy dla K7??? 
+Uzgodnij z Wieśkiem i GH szczegóły jak to ma byc oprogramowane.
+
+1. Modyfikacje formatki do Miksera dla stanowisk: Naważanie, Kompletowanie
+   (Specyfikacja w Modyfikacje.docx, zgłoszenie: 0037320)
+
+2. Dopasowanie formatki do najnowszych ustaleń zgodnie ze specyfikacją w zgłoszeniu: 0034411 
+
+3. Wyszczególnienie i dopasowanie kodu do sytuacji zmiany parametrów pracy serwera. (Tryb ręczny awaryjny) 
+   Co z modułem obsługi cykli? 
+   Do jakiego momentu obowiązują zmienione parametry?	
+
+4. Obsługa dokumentów dla stanowisk: waga pomostowa, mikser
+  (K. Szostak ma dostarczyć dokładną specyfikację)
+
+5. Obsługa etykiet zgodnie z załącznikiem producenta (szczegóły do omówienia z K. Szostak i G. Jagoda)  
+
+6. Wbudowanie modułu raportowania zmian parametrów Miksera
+
+7. Rozbudowa widoku zmian parametrów o filtrowanie danych (ur, przew, stpr_id, data, ...) 
+
+8. Dopasowanie wszystkich widoków do mniejszej rozdzielczości (czekamy na sygnał od GH po zakupie sprzętu)
+
+9. Oprogramowanie logowania i zmiany trybu sterowania modbasem za pomocą czytnika (czekamy na czytnik) 
+
+10. Dopasowanie kodu do zmienionych rejestrów: 
+	a) 16566 - aktualny cykl do zapisu
+	b) 12798, 13798, 12802, 12802 -waga olejowa, czasy
+
+11. Wprowadzenie zabezpieczeń w zależnościach wartości parametrów na formatce do parametrów operacji technologicznych
+
+12. Obsługa statusów (praca, awaria, przerwa, ...), podobnie jak MaatGolem (czekamy na specyfikację)
+
+13. Logowanie na brygadę oraz kontrola logowania pracowników tylko na wybranym stanowisku (zabezpiecznie przed obsługą kilku stanowisk)
+
+14. Sporządzenie dokumentacji i instrukcja obsługi dla całej formatki i formatek współpracujących.
+
+15. Aktualizacja nowej bazy testowej u klienta oraz testy nowej formatki. 
+
+-----------------------------------------------------------------------------------------------------
+UWAGA:
+Aktualna wersja formatki znajduje się na wymianie:
+w:\SZelasko\Start_Geyer_Form_MIESZALNIK_III\
+Start na bazie klienta:
+startGeyer_Klient12c.bat
+-----------------------------------------------------------------------------------------------------
